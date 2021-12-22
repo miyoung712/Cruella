@@ -3,10 +3,8 @@
 body {background-color: black;}
 
 
-#slider{width:100%; height:937px; position:relative;}
-.slide_l {width: 50%; height: 937x; margin: 0px auto; float:left;}
-.slide_l img {width:864px; height:937px;}
-
-.slide_r {width: 600px; height:937px; margin: 0px auto; float:right; position:absolute;}
-.r_content {background-color:beige;}
+#slider{width:100%; height:100%; background-color:burlywood; position:relative;}
+.slide_l {width: 48%; height:100vh; margin: 0px auto; float:left; background-color: aquamarine;}
+.slide_c {width: 2%; height:100vh; margin: 0px auto; float:left; background-color: pink;}
+.slide_r {width: 48%; height:100%; margin: 0px auto; float:right; background-color: orange;}
 

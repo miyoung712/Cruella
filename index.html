@@ -9,32 +9,77 @@
 
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
+
+    <script>
+    //  센터_헤더 상단 아이콘
+        (($) ->
+      $('#nav-lines').on "click", ->
+        $(this).toggleClass("active")
+    ) jQuery
+    // 센터_헤더 상단 아이콘
+    
+      </script>
 
 </head>
 
 <body>
 
- <header>
-
-
- </header>
-  
-
-
- <div id="slider">
+ <div id="wrap">
    <div class="slide_l">
       <div id="logo">
-        <img src="img/logo.png" alt="">
+        <a href="index.html"><img src="img/logo.png" alt=""></a>
       </div>
-      <!-- <img src="img/main/main_1.jpg" alt=""> -->
+
+
+      <h1>Gloss And Bloom</h1>
+      <!-- <img src="img/main/main_1.jpg" alt="">
+      <img src="img/main/main_2.jpg" alt="">
+      <img src="img/main/main_3.jpg" alt="">
+      <img src="img/main/main_4.jpg" alt=""> -->
+   </div>
+   
+
+   <div class="wrap_c">
+     <!-- 센터_헤더 상단 아이콘 -->
+     <div id="nav">
+        <div id="nav-lines">
+          <svg viewbox="0 0 64 64">
+            <line id="nav-line-1" x1="8" x2="56" y1="16" y2="16" class="nav-line" />
+            <line id="nav-line-2" x1="8" x2="56" y1="32" y2="32" class="nav-line" />
+            <line id="nav-line-3" x1="8" x2="56" y1="48" y2="48" class="nav-line" /> 
+          
+            <line x1="16" x2="48" y1="16" y2="48" class="cross-line" /> 
+            <line x1="16" x2="48" y1="48" y2="16" class="cross-line" /> 
+      
+            <rect class="rect" width="42" height="42" x="11" y="11" />
+          </svg>
+        </div>
+      </div>
+      <!-- 센터_헤더 상단 아이콘 -->
+
+      
+      <!-- sns 아이콘 -->
+      <div class="sns">
+        <div class="sns_icon">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+      <!-- sns 아이콘 -->
+
+
+     
+
+  
    </div>
 
-   <div class="slide_c">
-     
-   </div>
  
-   <div class="slide_r">
+   <div class="wrap_r">
      
   </div>
   

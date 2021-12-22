@@ -9,3 +9,4 @@ body {background-color: black;}
 .slide_c {width: 4%; height:100vh; margin: 0px auto; float:left; background-color: pink;}
 .slide_r {width: 52%; height:100%; margin: 0px auto; float:right; background-color: orange;}
 
+#logo {width:85px; height:70px; padding:20px;}

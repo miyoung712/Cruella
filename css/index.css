@@ -14,11 +14,11 @@
  .slide>li>img {width:100%; height:100%;}
  .slide li:not(:first-child) {display:none;}
 
- .wrap_c {width:72px; height:100vh; margin: 0px auto;   
-        background-color: pink; flex-direction: column; }
+ .wrap_c {width:72px; height:100vh; margin: 0px auto;   background-color: pink;
+        display:flex; flex-direction: column; justify-content: space-between;}
  #nav { width:72px; height:8vh; background-color: darkblue;}
  .sns {width:72px; height:380px; background-color: #000; margin-top:480px;
-        display:flex; flex-direction: column; justify-content: space-evenly;  align-content:center;}
+        display:flex; justify-content:center;}
 
                 
  .wrap_r {width: calc(53% - 36px);height:100vh; margin: 0px auto; background-color: orange;}
@@ -130,10 +130,10 @@
 
 
     /* sns 아이콘 */
-    .sns_icon { display:flex; flex-direction: column; justify-content: space-evenly;  align-content:center;}
-    .sns_icon .fab {color:#fff; font-size:23px;}
-    .sns_icon .fas {color:#fff; font-size:23px;}
-    .sns_icon .fas:first-of-type 
+    .sns_icon { display:flex; flex-direction: column; justify-content: space-around;  align-items:center; 
+             width:100%; height:100%;}
+    .sns_icon .fab {color:#fff; font-size:20px;}
+    .sns_icon .fab:first-of-type  
     .sns_icon .fab:nth-of-type(2)
     .sns_icon .fab:nth-of-type(3)
     .sns_icon .fab:nth-of-type(4) 

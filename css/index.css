@@ -17,7 +17,8 @@
  .wrap_c {width:72px; height:100vh; margin: 0px auto;   
         background-color: pink; flex-direction: column; }
  #nav { width:72px; height:8vh; background-color: darkblue;}
- .sns {width:72px; height:380px; background-color: #000; margin-top:480px;}
+ .sns {width:72px; height:380px; background-color: #000; margin-top:480px;
+        display:flex; flex-direction: column; justify-content: space-evenly;  align-content:center;}
 
                 
  .wrap_r {width: calc(53% - 36px);height:100vh; margin: 0px auto; background-color: orange;}
@@ -129,7 +130,7 @@
 
 
     /* sns 아이콘 */
-    .sns_icon {  display:flex; flex-direction: column; justify-content: space-evenly;  align-content:center;}
+    .sns_icon { display:flex; flex-direction: column; justify-content: space-evenly;  align-content:center;}
     .sns_icon .fab {color:#fff; font-size:23px;}
     .sns_icon .fas {color:#fff; font-size:23px;}
     .sns_icon .fas:first-of-type 

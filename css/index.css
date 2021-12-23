@@ -14,11 +14,11 @@
  .wrap_c {width:72px; height:100vh; margin: 0px auto; float:left;  
         background-color: pink; flex-direction: column; }
  #nav { width:72px; height:8vh; background-color: darkblue;}
- .sns {width:72px; height:30vh; background-color: darkgoldenrod; 
-     display:flex; justify-content:center;  margin-top:50vh;}
+ .sns {width:72px; height:380px; background-color: darkgoldenrod; 
+     display:flex; justify-content:center;  margin-top:480px;}
 
                 
- .wrap_r {width: calc( 52% - 36px);height:100%; margin: 0px auto; float:right; background-color: orange;}
+ .wrap_r {width: calc( 56% - 36px);height:100%; margin: 0px auto; float:right; background-color: orange;}
 
 
 

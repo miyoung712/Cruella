@@ -20,8 +20,23 @@
         $(this).toggleClass("active")
     ) jQuery
     // 센터_헤더 상단 아이콘
+
+
+    // 우측 메인 슬라이드
+    var i=0;
+    function slide(){
+    i++;
+    if (i>$('.slide li:last').index()){
+    i=0;    
+    } 
+    $('.slide li').eq(i).stop().fadeIn('slow');
+    $('.slide li').eq(i-1).stop().fadeOut();
+    }
+
+    setInterval (slide,1000);
+    // 우측 메인 슬라이드
     
-      </script>
+   </script>
 
 </head>
 
@@ -29,16 +44,15 @@
 
  <div id="wrap">
    <div class="slide_l">
-      <div id="logo">
-        <a href="index.html"><img src="img/logo.png" alt=""></a>
-      </div>
-
-
-      <h1>Gloss And Bloom</h1>
-      <!-- <img src="img/main/main_1.jpg" alt="">
+         <div id="logo">
+           <a href="index.html"><img src="img/logo.png" alt=""></a>
+         </div>
+     <ul class="slide">
+      <img src="img/main/main_1.jpg" alt="">
       <img src="img/main/main_2.jpg" alt="">
       <img src="img/main/main_3.jpg" alt="">
-      <img src="img/main/main_4.jpg" alt=""> -->
+      <img src="img/main/main_4.jpg" alt="">
+    </ul>
    </div>
    
 

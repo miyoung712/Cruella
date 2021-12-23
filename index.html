@@ -21,6 +21,13 @@
     // 센터_헤더 상단 아이콘
 
 
+    //  ** 메뉴 슬라이드 **
+      $('.menu-btn').click(function(){
+      $('.menu_side').toggleClass('show', 400)
+      });
+     //  ** 메뉴 슬라이드 **
+
+
     // 우측 메인 슬라이드
     var i=0;
     function slide(){
@@ -56,6 +63,7 @@
    </div>
    
    <div class="wrap_c">
+     
      <!-- 센터_헤더 상단 아이콘 -->
      <div id="nav">
         <div id="nav-lines">
@@ -72,6 +80,8 @@
         </div>
       </div>
       <!-- 센터_헤더 상단 아이콘 -->
+       <button class="menu-btn">click</button>
+       <div class="menu_side"></div> 
 
       <!-- sns 아이콘 -->
        <div class="sns">
@@ -100,6 +110,9 @@
 
 
       <div class="wrap_r">
+         
+          <img src="img/disney.jpg" alt="">
+    
         <img src="img/hello.jpg" alt="">
         <p>I knew it from the beginning<br>That I'm special<br>
           I'm going to show you who I am<br>

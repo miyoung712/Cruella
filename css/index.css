@@ -127,7 +127,7 @@
 
 
     /* sns 아이콘 */
-    .sns_icon { margin:135px 0 0 24px; }
+    .sns_icon { margin:135px 0 0 26px; }
     .sns_icon .fab {color:#fff; font-size:23px;}
     .sns_icon .fas {color:#fff; font-size:23px;}
     .sns_icon .fas:first-of-type {margin-top:30px;}

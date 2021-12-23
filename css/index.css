@@ -2,9 +2,9 @@
 
  body {background-color: black;}
 
- #logo {width:85px; height:70px; padding:25px 30px; position:fixed; z-index:10;}
+ #logo {width:75px; height:70px; padding:23px 28px; position:fixed; z-index:10;}
  #logo:hover {cursor:pointer; transform: scale(0.9); 
-             transition: all 0.3s ease-in-out; }
+             transition: all 0.2s ease-in-out; }
 
  #wrap{width:100%; height:100%; background-color:skyblue; 
        display:flex;  align-items:stretch;}
@@ -14,15 +14,15 @@
  .slide>li>img {width:100%; height:100%;}
  .slide li:not(:first-child) {display:none;}
 
- .wrap_c {width:72px; height:100vh; margin: 0px auto;   background-color: pink;
+ .wrap_c {width:72px; height:100vh; margin: 0px auto;  border-right:1px solid #982e29; background-color:#000;
         display:flex; flex-direction: column; justify-content: space-between;}
- #nav { width:72px; height:8vh; background-color: darkblue;}
- /* .sns {width:72px; height:380px; background-color: #000; margin-top:480px;
-        display:flex; justify-content:center;} */
-
+ #nav { width:72px; height:8vh; }
                 
- .wrap_r {width: calc(53% - 36px);height:100vh; margin: 0px auto; background-color: orange;}
-
+ .wrap_r {width: calc(53% - 36px);height:100vh; margin: 0px auto; background-color:#000;}
+ .wrap_r img {width:550px; height:119px; margin-top:295px; margin-left:218px;}
+ .wrap_r p {font-size:26px; text-align:center; color:#fff; line-height:35px; 
+           font-family:"HANBatang";}
+ .wrap_r h3 {font-size:13px; text-align:center; color:#5b5b5b; font-family:"HANBatang"; margin-top:297px;}
 
 
     /* 센터_헤더 상단 아이콘  */
@@ -33,10 +33,10 @@
 
     #nav-lines {
     background: none;
-    width: 53px;
-    height: 53px;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    left: 47.3%;
+    left: 47.4%;
     top: 5%;
     margin-left: -32px;
     margin-top: -32px;
@@ -67,9 +67,9 @@
     transition: all 0.3s ease-in-out;
     }
     #nav-lines .nav-line {
-    stroke: #fff;
+    stroke: #d9362f;
     transform-origin: 50% 50%;
-    stroke-width: 2px;
+    stroke-width: 3px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -130,18 +130,10 @@
 
 
     /* sns 아이콘 */
-    .sns { display:flex; flex-direction: column; justify-content: center; 
-             width:100%; height:100%;}
-
-    .sns_icon {width:72px; height:72px;
-        display:flex; justify-content: center; align-items: center;
-        border:1px solid #fff;}
-
-    .sns_icon .fab, .fas {color:#fff; font-size:20px;}
-
-
-    .sns_icon .fab:hover,.fas:hover{color:#d9362f; cursor:pointer; transform:scale(1.2);
-                        transition: all 0.2s ease-in-out;}
+    .sns { width:72px; height:250px; display:flex; flex-direction: column;}
+    .sns_icon {width:72px; height:72px; display:flex; justify-content:center; align-items:center; margin-bottom:20px;}
+    .sns_icon .fab, .fas {color:#d9362f; font-size:18px;}
+    .sns_icon .fab:hover,.fas:hover {color:#fff; cursor:pointer; transition: all 0.3s ease-in-out;}
     /* sns 아이콘 */
 
   

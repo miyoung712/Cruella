@@ -17,8 +17,8 @@
  .wrap_c {width:72px; height:100vh; margin: 0px auto;   background-color: pink;
         display:flex; flex-direction: column; justify-content: space-between;}
  #nav { width:72px; height:8vh; background-color: darkblue;}
- .sns {width:72px; height:380px; background-color: #000; margin-top:480px;
-        display:flex; justify-content:center;}
+ /* .sns {width:72px; height:380px; background-color: #000; margin-top:480px;
+        display:flex; justify-content:center;} */
 
                 
  .wrap_r {width: calc(53% - 36px);height:100vh; margin: 0px auto; background-color: orange;}
@@ -130,16 +130,17 @@
 
 
     /* sns 아이콘 */
-    .sns_icon { display:flex; flex-direction: column; justify-content: space-around;  align-items:center; 
+    .sns { display:flex; flex-direction: column; justify-content: center; 
              width:100%; height:100%;}
-    .sns_icon .fab {color:#fff; font-size:20px;}
-    .sns_icon .fab:first-of-type  
-    .sns_icon .fab:nth-of-type(2)
-    .sns_icon .fab:nth-of-type(3)
-    .sns_icon .fab:nth-of-type(4) 
-    .sns_icon .fab:nth-of-type(5)
 
-    .sns_icon .fab:hover {color:#d9362f; cursor:pointer; transform:scale(1.2);
+    .sns_icon {width:72px; height:72px;
+        display:flex; justify-content: center; align-items: center;
+        border:1px solid #fff;}
+
+    .sns_icon .fab, .fas {color:#fff; font-size:20px;}
+
+
+    .sns_icon .fab:hover,.fas:hover{color:#d9362f; cursor:pointer; transform:scale(1.2);
                         transition: all 0.2s ease-in-out;}
     /* sns 아이콘 */
 

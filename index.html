@@ -15,10 +15,9 @@
 
     <script>
     //  센터_헤더 상단 아이콘
-        (($) ->
-      $('#nav-lines').on "click", ->
-        $(this).toggleClass("active")
-    ) jQuery
+      $('#nav-lines').on ("click", function(){
+         $(this).toggleClass("active");
+      });
     // 센터_헤더 상단 아이콘
 
 
@@ -33,7 +32,7 @@
     $('.slide li').eq(i-1).stop().fadeOut();
     }
 
-    setInterval (slide,1000);
+    setInterval (slide,4000);
     // 우측 메인 슬라이드
     
    </script>

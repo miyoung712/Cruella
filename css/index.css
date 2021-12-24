@@ -130,7 +130,7 @@
     }
     /* 센터_헤더 상단 아이콘 */
 
-    .menu_side {position: fixed; z-index: 999; right: 0vw; 
+    .menu_side {position: fixed; z-index: 999; right: -100vw; 
         width:calc(53% - 36px); height: 100vh; background-color:#d9362f; 
         padding: 30px; box-sizing: border-box; transition : 0.5s all ease-in-out;}
     .show {right: 0px; background-color:#d9362f; transition : 0.5s all ease-in-out;}

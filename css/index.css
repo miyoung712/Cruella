@@ -132,15 +132,16 @@
 
     .menu_side {position: fixed; z-index: 50; right: 100%; 
         width:calc(53% - 36px); height: 100vh; background-color:#d9362f; 
-        padding: 30px; box-sizing: border-box; transition : 0.5s all ease-in-out;}
+        padding: 10px; box-sizing: border-box; transition : 0.5s all ease-in-out;}
     .show {right: 0px; background-color:#d9362f; transition : 0.5s all ease-in-out;}
 
     .menu_side {color:#fff; font-family:"HANBatangB";}
-    .menu li {font-size:50px; margin-left:130px; margin-top:110px; 
-              padding:0px; line-height:0px; letter-spacing:1px; }
+    .menu li {font-size:50px; margin-left:130px; 
+              padding:2px; letter-spacing:1px; }
+    .menu li:first-of-type {margin-top: 200px;}
     .menu li {cursor:pointer;}
     .menu_side p {font-size:15px; font-family:"S-CoreDream-4Regular";  margin-top:110px; 
-                  letter-spacing:1px; margin-left:130px;}
+                  letter-spacing:1px; margin-left:132px; margin-top: 250px;}
 
 
     /* sns 아이콘 */

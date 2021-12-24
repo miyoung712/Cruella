@@ -130,12 +130,17 @@
     }
     /* 센터_헤더 상단 아이콘 */
 
-    .menu_side {position: fixed; z-index: 999; right: -100vw; 
+    .menu_side {position: fixed; z-index: 999; right: 100%; 
         width:calc(53% - 36px); height: 100vh; background-color:#d9362f; 
         padding: 30px; box-sizing: border-box; transition : 0.5s all ease-in-out;}
     .show {right: 0px; background-color:#d9362f; transition : 0.5s all ease-in-out;}
 
-    .menu_side {font-size:50px; color:#fff;}
+    .menu_side {color:#fff; font-family:"HANBatangB";}
+    .menu li {font-size:50px; margin:120px 150px; padding:0px; line-height:0px;letter-spacing:1px;}
+    .menu li {cursor:pointer;}
+    .menu_side p {font-size:14px; font-family:"S-CoreDream-4Regular"; 
+                  letter-spacing:1px; margin-left:155px;}
+
 
     /* sns 아이콘 */
     .sns { width:72px; height:250px; display:flex; flex-direction: column;}

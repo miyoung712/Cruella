@@ -13,6 +13,8 @@
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
 
     <script>
+     
+     $(document).ready(function(){
 
     //  센터_헤더 상단 아이콘
       $('#nav-lines').on ("click", function(){
@@ -22,7 +24,8 @@
 
 
     //  ** 메뉴 슬라이드 **
-      $('.menu-btn').click(function(){
+    
+      $('#nav-lines').click(function(){
       $('.menu_side').toggleClass('show', 400)
       });
      //  ** 메뉴 슬라이드 **
@@ -42,6 +45,9 @@
     setInterval (slide,4000);
     // 우측 메인 슬라이드
     
+
+  });
+
    </script>
 
 </head>
@@ -81,13 +87,13 @@
         </div>
       </div>
       <!-- 센터_헤더 상단 아이콘 -->
-       <button class="menu-btn">click</button>
        <div class="menu_side"></div> 
 
       <!-- sns 아이콘 -->
        <div class="sns">
            <div class="sns_icon">
-            <i class="fas fa-video"></i>
+            <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=187322"
+             target="_blank"><i class="fas fa-video"></a></i>  
            </div>
 
            <div class="sns_icon">

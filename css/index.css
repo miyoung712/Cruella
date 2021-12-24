@@ -130,10 +130,10 @@
     }
     /* 센터_헤더 상단 아이콘 */
 
-    .menu_side {position: fixed; z-index: 999; left: -100vw; 
-        width: 60%; height: 100vh; background-color:gold; 
+    .menu_side {position: fixed; z-index: 999; right: 0vw; 
+        width:calc(53% - 36px); height: 100vh; 
         padding: 30px; box-sizing: border-box; transition : 0.5s all ease-in-out;}
-    .show {left: 0; background-color:red; transition : 0.5s all ease-in-out;}
+    .show {right: 0; background-color:#d9362f; transition : 0.5s all ease-in-out;}
 
     /* sns 아이콘 */
     .sns { width:72px; height:250px; display:flex; flex-direction: column;}

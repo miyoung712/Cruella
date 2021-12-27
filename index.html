@@ -23,15 +23,15 @@
     // 센터_헤더 상단 아이콘
 
 
-    //  ** 메뉴 슬라이드 **
+    //  ** 메뉴 슬라이드 (사이드) **
     
       $('#nav-lines').click(function(){
       $('.menu_side').toggleClass('show', 400)
       });
-     //  ** 메뉴 슬라이드 **
+     //  ** 메뉴 슬라이드 (사이드) **
 
 
-    // 우측 메인 슬라이드
+    // 우측 이미지 슬라이드
     var i=0;
     function slide(){
     i++;
@@ -43,10 +43,10 @@
     }
 
     setInterval (slide,4000);
-    // 우측 메인 슬라이드
+    // 우측 이미지 슬라이드
 
 
-    // 메뉴 li 슬라이드
+    // 메뉴 li 슬라이드 (오른쪽으로)
 
     $(function(){
         $('.menu li').css("transform","translateX(0px)").css("opacity","1");
@@ -54,8 +54,19 @@
           var ws=$(this).scrollTop();
         });
       });
-   // 메뉴 li 슬라이드
+   // 메뉴 li 슬라이드 (오른쪽으로)
+   
 
+   // 메인 우측 p 슬라이드 (위로)
+    $(function(){
+      $(window).scroll(function(){
+      var ws=$(this).scrollTop();
+      if(ws>500){
+      $('.p_s1').css("transform","translateY(0px)").css("opacity","1");
+      }
+     });
+    });
+   // 메인 우측 p 슬라이드 (위로)
 
   });
 
@@ -137,17 +148,17 @@
 
 
       <div class="wrap_r">
-        <img src="img/disney.jpg" alt="">
-        <img src="img/hello.jpg" alt="">
-        <p>I knew it from the beginning<br>That I'm special<br>
+        <div class="wrap_r_box">
+         <img src="img/disney.jpg" alt="">
+         <img src="img/hello.jpg" alt="">
+         <p class="p_s1">I knew it from the beginning<br>That I'm special<br>
           I'm going to show you who I am<br>
           Bye, Aestella<br>I'm a Cruella now !</p>
-        <h3>© 2021 Disney and its related entities. All Rights Reserved.</h3>
-       </div>
-
+         <h3>© 2021 Disney and its related entities. All Rights Reserved.</h3>
+        </div>
+      </div>
     </div>
 
- 
 
 
 </body>

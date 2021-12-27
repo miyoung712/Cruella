@@ -158,7 +158,6 @@
 
 
     /* 메뉴 li 호버 컬러 슬라이드 */
-
     .menu li{
         padding: 2px 2px;
         margin: -2px 118px;
@@ -197,5 +196,4 @@
         -ms-transform: scale(1, 1);
         transform: scale(1, 1);
       }
-
-      /* 메뉴 li 호버 컬러 슬라이드 */
+     /* 메뉴 li 호버 컬러 슬라이드 */

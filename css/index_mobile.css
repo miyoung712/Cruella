@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 
- /* tablet */
+ /* mobile */
 
- @media (min-width:600px) and (max-width:1199px){
+ @media (max-width:599px){
 
  body {background-color: black; }
 
@@ -31,13 +31,13 @@
   #nav #logo:hover {cursor:pointer; transform: scale(0.9); 
                       transition: all 0.2s ease-in-out; }
 
- .wrap_r {width:100%; height:100vh; margin: 0px auto; background-color:#000; position:relative;}
+ .wrap_r {width:100%; height:80vh; margin: 0px auto; background-color:#000; position:relative;}
  .wrap_r img:first-of-type {width:80px; height:33px; margin-top:26px; margin-left:14px; position:absolute;}
  .wrap_r img:first-of-type:hover {cursor:pointer;}
- .wrap_r img:nth-of-type(2) {width:550px; height:119px; position:absolute;
+ .wrap_r img:nth-of-type(2) {width:450px; height:98px; position:absolute;
                      top:36%; left:50%; transform:translate(-50%,-50%);}
- .wrap_r p {font-size:26px; text-align:center; color:#fff; line-height:35px; 
-           font-family:"HANBatang"; margin-top:400px;}                  
+ .wrap_r p {font-size:22px; text-align:center; color:#fff; line-height:30px; 
+           font-family:"HANBatang"; margin-top:320px;}                  
  .wrap_r h3 {font-size:13px; color:#5b5b5b; font-family:"HANBatang";width:100%; height:60px;
             position: absolute; bottom:0; text-align:center; border-top:1px solid #982e29; padding:19px;}
 
@@ -152,14 +152,14 @@
     .show { right: 0px; background-color:#d9362f; transition : 0.5s all ease-in-out;}
 
     .menu_side {color:#fff; font-family:"HANBatangB";}
-    .menu li {font-size:50px;  letter-spacing:1px; transform:translate(-420px); 
+    .menu li {font-size:43px;  letter-spacing:1px; transform:translate(-420px); 
               transition: all 3s; opacity: 0;}
     .menu li:first-of-type {margin-top: 110px; }
     .menu li {margin-left: 10px;}
     .menu li {cursor:pointer;}
     .menu li:hover { transition: 1s;}
     .menu_side p {font-size:15px; font-family:"S-CoreDream-4Regular";  
-                  letter-spacing:1px; margin-left:96px; margin-top: 200px;}
+                  letter-spacing:1px; margin-left:96px; margin-top: 350px;}
 
 
     /* sns 아이콘 */
@@ -168,7 +168,7 @@
                border-top:1px solid #982e29; padding:19px;  
                border-bottom:1px solid #982e29;
                display:flex; justify-content:space-around; align-items:center;}
-    .sns_icon .fab, .fas {color:#d9362f; font-size:27px;}
+    .sns_icon .fab, .fas {color:#d9362f; font-size:21px;}
     .sns_icon .fab:hover,.fas:hover {color:#fff; cursor:pointer; transition: all 0.3s ease-in-out;}
     /* sns 아이콘 */
 
@@ -217,4 +217,4 @@
 
     }
     
-    /* tablet */
+    /* mobile */

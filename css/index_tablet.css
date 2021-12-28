@@ -54,7 +54,7 @@
     height: 50px;
     position: absolute;
     left: 116.5%;
-    top: 5%;
+    top: 4.5%;
     margin-left: -200px;
     margin-top: -32px;
     cursor: pointer;
@@ -146,7 +146,7 @@
     /* 센터_헤더 상단 아이콘 */
 
     .menu_side {position: fixed; z-index: 50; right: 100%; 
-        width:calc(53% - 36px); height: 100vh; background-color:#d9362f; 
+        width:90%; height: 100vh; background-color:#d9362f; 
         padding: 10px; box-sizing: border-box; transition : 0.5s all ease-in-out;}
     .show {right: 0px; background-color:#d9362f; transition : 0.5s all ease-in-out;}
 

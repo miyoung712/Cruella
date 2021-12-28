@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+
+@media (min-width:1200px){
+
  body {background-color: black;}
 
  #logo {width:75px; height:70px; padding:23px 28px; position:fixed; z-index:10;}
@@ -199,3 +202,5 @@
         transform: scale(1, 1);
       }
      /* 메뉴 li 호버 컬러 슬라이드 */
+
+    }

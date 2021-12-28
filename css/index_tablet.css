@@ -15,8 +15,8 @@
   .wrap_r {order:1;}
   .slide_l {order:2;}
 
- .slide_l {width: 100%; height:auto; margin: 0px auto; position:relative; background-color:pink; z-index:30;
-          display:flex; justify-content:center; align-items: center;}
+ .slide_l {width: 100%; height:auto; margin: 0px auto; position:relative; 
+          background-color:#000; z-index:30; }
  .slide {width:100%;}
  .slide>li {width:100%; height:auto; position:absolute; left:0; top:0; 
            display:flex; justify-content:center; align-items: center;}

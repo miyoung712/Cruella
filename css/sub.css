@@ -28,9 +28,9 @@
  .bg_info {width:85%; height:85%; background-color:rgba(0,0,0,0.8); 
            position:absolute; transform: translate(-50%,-50%); left:50%; top:50%;}
  .bg_i h1 {font-family:"HANBatang"; font-size:50px; color:#fff; text-align:center; 
-             margin-top:60px; letter-spacing: 1px; }
+             margin-top:60px; letter-spacing: 1px; padding:5px; }
  .bg_info h2 {font-family:"HANBatang"; font-size:18px; color:#dedede; text-align:center; 
-              margin-top:60px; letter-spacing: 1px; }            
+              margin-top:60px; letter-spacing: 1px; padding:5px;}            
  .bg_info p {font-family:"S-CoreDream-3Light"; font-size:13px; color:#a2a1a1; text-align:center;  letter-spacing: 2px; }
 
  

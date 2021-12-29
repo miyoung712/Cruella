@@ -25,6 +25,7 @@
                 
  .wrap_r {width: calc(53% - 36px);height:100vh; margin: 0px auto; background-color:#000; position:relative; }
  .wrap_r {background: url(../img/sub_background.jpg); width: calc(53% - 36px); height:auto; }
+ .bg_info {width:500px; height:700px; background-color: #000; transform: translate(-50%,-50%); left:0; top:0;}
  
  
 

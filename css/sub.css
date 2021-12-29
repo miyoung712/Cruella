@@ -25,8 +25,14 @@
                 
  .wrap_r {width: calc(53% - 36px);height:100vh; margin: 0px auto; background-color:#000; position:relative; }
  .wrap_r {background: url(../img/sub_background.jpg); width: calc(53% - 36px); height:auto; }
- .bg_info {width:500px; height:700px; background-color: #000; transform: translate(-50%,-50%); left:0; top:0;}
- 
+ .bg_info {width:85%; height:85%; background-color:rgba(0,0,0,0.8); 
+           position:absolute; transform: translate(-50%,-50%); left:50%; top:50%;}
+ .bg_i h1 {font-family:"HANBatang"; font-size:50px; color:#fff; text-align:center; 
+             margin-top:60px; letter-spacing: 1px; }
+ .bg_info h2 {font-family:"HANBatang"; font-size:18px; color:#dedede; text-align:center; 
+              margin-top:60px; letter-spacing: 1px; }            
+ .bg_info p {font-family:"S-CoreDream-3Light"; font-size:13px; color:#a2a1a1; text-align:center;  letter-spacing: 2px; }
+
  
 
 
@@ -139,8 +145,9 @@
     .show {right: 0px; background-color:#d9362f; transition : 0.5s all ease-in-out;}
 
     .menu_side {color:#fff; font-family:"HANBatangB";}
+    .menu li a {color:#fff;}
     .menu li {font-size:50px;  letter-spacing:1px; transform:translate(-420px); 
-              transition: all 3s; opacity: 0;}
+              transition: all 3s; opacity: 0; }
     .menu li:first-of-type {margin-top: 200px; }
     .menu li {margin-left: 130px;}
     .menu li {cursor:pointer;}

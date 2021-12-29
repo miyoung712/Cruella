@@ -17,17 +17,16 @@
  .slide>li>img {width:100%; height:100%;}
  .slide li:not(:first-child) {display:none;}
 
- .wrap_c {width:72px; height:100vh; margin: 0px auto;  border-right:1px solid #982e29; background-color:#000;
+ .wrap_c {width:72px; height:100vh; margin: 0px auto; background-color:#000;
         display:flex; flex-direction: column; justify-content: space-between;}
  #nav { width:72px; height:8vh; }
 
  .wrap_c #logo {display:none;}
                 
- .wrap_r {width: calc(53% - 36px);height:100vh; margin: 0px auto; background-color:#000; position:relative;}
- .wrap_r img:first-of-type {width:80px; height:33px; position:absolute;
-                            top:25px; left:19px; }
- .wrap_r img:first-of-type:hover {cursor:pointer;}
-
+ .wrap_r {width: calc(53% - 36px);height:100vh; margin: 0px auto; background-color:#000; position:relative; }
+ .wrap_r {background: url(../img/sub_background.jpg); width: calc(53% - 36px); height:auto; }
+ 
+ 
 
 
     /* 센터_헤더 상단 아이콘  */

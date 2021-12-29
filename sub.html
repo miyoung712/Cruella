@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruella</title>
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sub.html">
+    <link rel="stylesheet" href="css/sub.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
+    <script>
+     
+     $(document).ready(function(){
+
+    //  센터_헤더 상단 아이콘
+      $('#nav-lines').on ("click", function(){
+         $(this).toggleClass("active");
+      });
+    // 센터_헤더 상단 아이콘
+
+
+    //  ** 메뉴 슬라이드 (사이드) **
+    
+      $('#nav-lines').click(function(){
+      $('.menu_side').toggleClass('show', 400)
+      });
+     //  ** 메뉴 슬라이드 (사이드) **
+
+
+    // 우측 이미지 슬라이드
+    var i=0;
+    function slide(){
+    i++;
+    if (i>$('.slide li:last').index()){
+    i=0;    
+    } 
+    $('.slide li').eq(i).stop().fadeIn('slow');
+    $('.slide li').eq(i-1).stop().fadeOut();
+    }
+
+    setInterval (slide,4000);
+    // 우측 이미지 슬라이드
+
+
+    // 메뉴 li 슬라이드 (오른쪽으로)
+    $(function(){
+        $('.menu li').css("transform","translateX(0px)").css("opacity","1");
+          $(window).scroll(function(){
+          var ws=$(this).scrollTop();
+        });
+      });
+   // 메뉴 li 슬라이드 (오른쪽으로)
+   
+
+   // 메인 우측 p 슬라이드 (위로)
+    $(function(){
+      $(window).scroll(function(){
+      var ws=$(this).scrollTop();
+      if(ws>500){
+      $('.p_s1').css("transform","translateY(0px)").css("opacity","1");
+      }
+     });
+    });
+   // 메인 우측 p 슬라이드 (위로)
+
+  });
+
+   </script>
+
+</head>
+
+<body>
+
+ <div id="wrap">
+   <div class="slide_l">
+         <div id="logo">
+           <a href="index.html"><img src="img/logo.png" alt=""></a>
+         </div>
+     <ul class="slide">
+      <li><img src="img/main/main_1.jpg" alt=""></li>
+      <li><img src="img/main/main_2.jpg" alt=""></li>
+      <li><img src="img/main/main_3.jpg" alt=""></li>
+      <li><img src="img/main/main_4.jpg" alt=""></li>
+      <li><img src="img/main/main_5.jpg" alt=""></li>
+      <li><img src="img/main/main_6.jpg" alt=""></li>
+     </ul>
+   </div>
+   
+   <div class="wrap_c">
+
+
+     
+     <!-- 센터_헤더 상단 아이콘 -->
+     <div id="nav">
+          <div id="logo">
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+          </div>
+        <div id="nav-lines">
+          <svg viewbox="0 0 64 64">
+            <line id="nav-line-1" x1="8" x2="56" y1="16" y2="16" class="nav-line" />
+            <line id="nav-line-2" x1="8" x2="56" y1="32" y2="32" class="nav-line" />
+            <line id="nav-line-3" x1="8" x2="56" y1="48" y2="48" class="nav-line" /> 
+          
+            <line x1="16" x2="48" y1="16" y2="48" class="cross-line" /> 
+            <line x1="16" x2="48" y1="48" y2="16" class="cross-line" /> 
+      
+            <rect class="rect" width="42" height="42" x="11" y="11" />
+          </svg>
+        </div>
+      </div>
+      <!-- 센터_헤더 상단 아이콘 -->
+       <div class="menu_side">
+          <ul class="menu">
+            <li>Home</li><br>
+            <a href="sub.html"><li>Information</li></a><br>
+            <li>Actor/Staff</li><br>
+            <li>Photo</li><br>
+            <li>Video</li>
+          </ul>
+          <p>Copyright©•Powered by Cruella</p>
+       </div> 
+
+      <!-- sns 아이콘 -->
+       <div class="sns">
+           <div class="sns_icon">
+            <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=187322"
+             target="_blank"><i class="fas fa-video"></a></i>  
+           </div>
+
+           <div class="sns_icon">
+            <i class="fab fa-instagram"></i>
+           </div>
+
+           <div class="sns_icon">
+            <i class="fab fa-facebook-square"></i>
+           </div>
+
+           <div class="sns_icon">
+            <i class="fab fa-twitter"></i>
+           </div>
+
+           <div class="sns_icon">
+            <i class="fab fa-youtube"></i>
+           </div>
+        </div>
+      </div>
+      <!-- sns 아이콘 -->
+
+      <div class="wrap_r">
+     
+
+      </div>
+    </div>
+
+
+
+</body>
+
+</html>

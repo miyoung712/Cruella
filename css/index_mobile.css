@@ -31,13 +31,13 @@
   #nav #logo:hover {cursor:pointer; transform: scale(0.9); 
                       transition: all 0.2s ease-in-out; }
 
- .wrap_r {width:100%; height:80vh; margin: 0px auto; background-color:#000; position:relative;}
+ .wrap_r {width:100%; height:82vh; margin: 0px auto; background-color:#000; position:relative;}
  .wrap_r img:first-of-type {width:80px; height:33px; margin-top:26px; margin-left:14px; position:absolute;}
  .wrap_r img:first-of-type:hover {cursor:pointer;}
- .wrap_r img:nth-of-type(2) {width:450px; height:98px; position:absolute;
+ .wrap_r img:nth-of-type(2) {width:90%; height:98px; position:absolute;
                      top:36%; left:50%; transform:translate(-50%,-50%);}
  .wrap_r p {font-size:22px; text-align:center; color:#fff; line-height:30px; 
-           font-family:"HANBatang"; margin-top:320px;}                  
+           font-family:"HANBatang"; margin-top:340px;}                  
  .wrap_r h3 {font-size:13px; color:#5b5b5b; font-family:"HANBatang";width:100%; height:60px;
             position: absolute; bottom:0; text-align:center; border-top:1px solid #982e29; padding:19px;}
 
@@ -153,14 +153,12 @@
 
     .menu_side {color:#fff; font-family:"HANBatangB";}
     .menu li {font-size:43px;  letter-spacing:1px; transform:translate(-420px); 
-              transition: all 3s; opacity: 0;}
-    .menu li:first-of-type {margin-top: 110px; }
-    .menu li {margin-left: 10px;}
+              transition: all 3s; opacity: 0; }
+    .menu li:first-of-type {margin-top:280px; }
     .menu li {cursor:pointer;}
     .menu li:hover { transition: 1s;}
     .menu_side p {font-size:15px; font-family:"S-CoreDream-4Regular";  
-                  letter-spacing:1px; margin-left:96px; margin-top: 350px;}
-
+                  letter-spacing:1px; margin-left:105px; margin-top:270px;}
 
     /* sns 아이콘 */
     .sns { width:100%; height:72px;  display:flex; flex-direction: row; }
@@ -177,7 +175,7 @@
     /* 메뉴 li 호버 컬러 슬라이드 */
     .menu li{
         padding: 2px 2px;
-        margin: -2px 90px;
+        margin: -2px 105px;
         color: #fff;
         font-family:"HANBatangB";
         text-align: center;

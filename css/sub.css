@@ -24,22 +24,28 @@
  .wrap_c #logo {display:none;}
                 
  .wrap_r {width: calc(53% - 36px);height:100vh; margin: 0px auto; background-color:#000; position:relative; }
- .wrap_r {background: url(../img/sub_background.jpg); width: calc(53% - 36px); height:auto; }
- .bg_info {width:85%; height:71%; background-color:rgba(0,0,0,0.8); 
-           position:absolute; transform: translate(-50%,-50%); left:50%; top:57%; }
+ .wrap_r {background:url(../img/sub_background.jpg) center; width: calc(53% - 36px); height:auto;}
+ .bg_info {width:85%; height:67%; background-color:rgba(0,0,0,0.8); 
+           position:absolute; transform: translate(-50%,-50%); left:50%; top:53%; }
   #bg_i {width:100%; height:80px;}
   #bg_i h1 {font-family:"HANBatang"; font-size:52px; color:#fff; text-align:center; 
-             margin-top:53px; letter-spacing: 1px; padding:5px; text-shadow:4px 3px #000;}
+             margin-top:36px; letter-spacing: 1px; padding:5px; text-shadow:4px 3px #000;}
   #bg_i P {font-family:"HANBatang"; font-size:12px; color:#fff; text-align:center; letter-spacing: 1px; margin-top:-5px;} 
-  #bg_i h3 {font-family:"YanoljaYacheR"; font-size:18px; color:#d9362f; text-align:center; letter-spacing:3px; margin-top:5px;}
+  #bg_i h4 {font-family:"YanoljaYacheR"; font-size:18px; color:#d9362f; text-align:center; letter-spacing:3px; margin-top:5px;}
   #bg_i span {font-family:"S-CoreDream-3Light"; font-size:14px; color:#fff; letter-spacing:1px;}
+  #bg_i .star-rating {width:304px;}
+  .star-rating,.star-rating span {display:inline-block; height:55px; overflow:hidden; 
+    background:url(star.png)no-repeat; }
+  .star-rating span{background-position:left bottom; line-height:0; vertical-align:top; }
+
   
  .bg_info h2 {font-family:"HANBatang"; font-size:18px; color:#d6d5d5; text-align:center; 
               letter-spacing: 1px; margin-top:35px; }     
- .bg_info h2:first-of-type {margin-top:87px;}                  
+ .bg_info h2:first-of-type {margin-top:73px;}                  
  .bg_info p {font-family:"S-CoreDream-3Light"; font-size:12px; color:#a2a1a1; 
              text-align:center;  letter-spacing: 2px; margin-top:5px;}
-
+  .wrap_r h3 {font-size:13px; color:#5b5b5b; font-family:"HANBatang";width:100%; height:60px;
+              position: absolute; bottom:0; text-align:center; border-top:1px solid #982e29; padding:19px;}
  
 
 

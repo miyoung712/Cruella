@@ -70,6 +70,18 @@
 
   });
 
+
+
+  // 스토리 열기
+  $(function(){
+    $('.arrow').mouseover(function(){
+     $('.arrow_box .story').stop().slideDown();
+      }).mouseout(function(){
+     $('.arrow_box .story').stop().slideUp();
+     });
+     });
+  // 스토리 열기
+
    </script>
 
 </head>
@@ -155,8 +167,16 @@
         <h3>© 2021 Disney and its related entities. All Rights Reserved.</h3>
           <h1>Bye, Aestella</h1>
           <img src="img/im.png" alt="">
-
-         </div>
+           <div class="arrow_box">
+             <div class="arrow">
+              <i class="fas fa-caret-square-down"></i>
+              <!-- <i class="fas fa-chevron-circle-down"></i> -->
+               <div class="story">
+                  가나다라마바사아자
+               </div>
+             </div>
+          </div>
+      </div>
    
   </div>
   

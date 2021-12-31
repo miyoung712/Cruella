@@ -28,19 +28,19 @@
  .wrap_r h3 {font-size:13px; color:#5b5b5b; font-family:"HANBatang";width:100%; height:60px;
               position: absolute; bottom:0; text-align:center; border-top:1px solid #982e29; padding:19px;}
 
- .wrap_r .r_box {width: 100%; height:40%; background-color: pink; margin-top:5px;}   
- .wrap_r .r_box_2 {width: 100%; height:40%; background-color: yellow;}    
+ .wrap_r .r_box {width: 100%; height:48%; background-color: pink;}   
+ .wrap_r .r_box_2 {width: 100%; height:44%; background-color: yellow; display:flex; justify-content:center;}    
 
- .wrap_r h1 {font-family:"S-CoreDream-3Light"; font-size:14px; color:#d9362f; 
-             text-align:center;  letter-spacing: 2px; margin-top:340px;}
- .wrap_r img {width:520px; height:120px; position:absolute; transform:translate(-50%,-50%); top:420px; left:50%;}
- .wrap_r .arrow_box {width:50%; height:50px; background-color: chocolate;
-                    margin-top:110px; display:flex; justify-content:center; align-items:center;}
- .wrap_r .arrow {width:72px; height:72px;  margin-top:30px;  display:flex; justify-content:center; }
- .wrap_r .arrow .fas {color:#fff; font-size:20px; display:flex;
-                      justify-content:center; } 
- .wrap_r .arrow .fas:hover {color:#d9362f;}
- .arrow_box .story{width:100%;height:300px; margin-top:80px; background-color: cadetblue;display:none;}
+ .wrap_r .r_box h1 {font-family:"S-CoreDream-3Light"; font-size:14px; color:#d9362f; 
+             text-align:center;  letter-spacing: 2px; margin-top:320px;}
+ .wrap_r .r_box img {width:520px; height:120px; position:absolute; transform:translate(-50%,-50%); top:390px; left:50%;}
+
+ .wrap_r .r_box_2 .arrow_box {width:10%; height:40px; background-color: chocolate;
+                       margin-top:10px; display:flex; justify-content:center; align-items:center;}
+ .wrap_r .r_box_2 .arrow {width:72px; height:72px; margin-top:30px;  }
+ .wrap_r .r_box_2 .arrow .fas {color:#fff; font-size:20px; } 
+ .wrap_r .r_box_2 .arrow .fas:hover {color:#d9362f;}
+ .wrap_r .r_box_2 .arrow_box .story{width:100%; height:300px; margin-top:30px; background-color: cadetblue;display:none;}
 
 
 

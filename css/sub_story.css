@@ -40,7 +40,7 @@
  .wrap_r .r_box_2 .arrow {width:72px; height:72px; margin-top:-20px; display:flex; justify-content:center;align-items:center;}
  .wrap_r .r_box_2 .arrow .fas {color:#fff; font-size:20px; } 
  .wrap_r .r_box_2 .arrow .fas:hover {color:#d9362f;}
- .wrap_r .story{width:100%; height:300px; margin-top:-450px; text-align:center; background-color: cadetblue; display:none;}
+ .wrap_r .story{width:100%; height:300px; margin-top:10px; text-align:center; background-color: cadetblue; display:none;}
 
 
 

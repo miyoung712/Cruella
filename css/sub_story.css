@@ -24,9 +24,13 @@
  .wrap_c #logo {display:none;}
                 
  .wrap_r {width: calc(53% - 36px);height:100vh; margin: 0px auto; background-color:#000; position:relative; 
-          background:url(../img/sub_story_background.jpg) center;}
+          background:url(../img/sub_story_background.jpg) center; display:flex; flex-direction:column;}
  .wrap_r h3 {font-size:13px; color:#5b5b5b; font-family:"HANBatang";width:100%; height:60px;
               position: absolute; bottom:0; text-align:center; border-top:1px solid #982e29; padding:19px;}
+
+ .wrap_r .r_box {width: 100%; height:40%; background-color: pink; margin-top:5px;}   
+ .wrap_r .r_box_2 {width: 100%; height:40%; background-color: yellow;}    
+
  .wrap_r h1 {font-family:"S-CoreDream-3Light"; font-size:14px; color:#d9362f; 
              text-align:center;  letter-spacing: 2px; margin-top:340px;}
  .wrap_r img {width:520px; height:120px; position:absolute; transform:translate(-50%,-50%); top:420px; left:50%;}

@@ -29,7 +29,7 @@
               position: absolute; bottom:0; text-align:center; border-top:1px solid #982e29; padding:19px;}
 
  .wrap_r .r_box {width: 100%; height:46%; }   
- .wrap_r .r_box_2 {width: 100%; height:44%; background-color: yellow; display:flex; justify-content:center;}    
+ .wrap_r .r_box_2 {width: 100%; height:44%; background-color: yellow; display:flex; flex-wrap:wrap; justify-content:center;}    
 
  .wrap_r .r_box h1 {font-family:"S-CoreDream-3Light"; font-size:14px; color:#d9362f; 
              text-align:center;  letter-spacing: 2px; margin-top:310px;}
@@ -40,7 +40,7 @@
  .wrap_r .r_box_2 .arrow {width:72px; height:72px; margin-top:-20px; display:flex; justify-content:center;align-items:center;}
  .wrap_r .r_box_2 .arrow .fas {color:#fff; font-size:20px; } 
  .wrap_r .r_box_2 .arrow .fas:hover {color:#d9362f;}
- .wrap_r .r_box_2 .arrow_box .story{width:100%; height:300px; margin-top:200px; background-color: cadetblue;display:none;}
+ .wrap_r .story{width:100%; height:300px; margin-top:-400px; text-align:center; background-color: cadetblue; display:none;}
 
 
 

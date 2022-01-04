@@ -74,8 +74,12 @@
 //    서브 포토 슬라이드
     $(document).ready(function(){
 
-      $("#photo li:first-child").click(function(){
+      $("#photo_box li:first-child").click(function(){
          $("#s_img").attr("src","p_1.jpg");
+      });
+
+      $("#photo_box li:nth-child").click(function(){
+         $("#s_img").attr("src","p_2.jpg");
       });
 
 

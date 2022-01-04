@@ -158,12 +158,12 @@ $('#photo_box ul').css({marginLeft:0});
 });
 }
 
-function slide(){
-$('#photo_box ul').stop().animate({marginLeft:-100}, function(){
-$('#photo_box ul li:first').appendTo('#photo_box ul');
-$('#photo_box ul').css({marginLeft:0});
-});
-}
+// function slide(){
+// $('#photo_box ul').stop().animate({marginLeft:-100}, function(){
+// $('#photo_box ul li:first').appendTo('#photo_box ul');
+// $('#photo_box ul').css({marginLeft:0});
+// });
+// }
 
 setInterval(slide, 3000);
 
@@ -264,7 +264,8 @@ next();
 
         <div id="img_box">
            <img src="img/photo/p_1.jpg" alt="" id="s_img" class="p_1">
-          
+              <span class="prev">&lt;</span>
+              <span class="next">&gt;</span>
             <div id="photo_box">
             <ul>
               <li><img src="img/photo/p_1.jpg" alt=""></li>
@@ -284,13 +285,9 @@ next();
               <li><img src="img/photo/p_15.jpg" alt=""></li>
               <li><img src="img/photo/p_16.jpg" alt=""></li>
             </ul>
-            <span class="prev">&lt;</span>
-            <span class="next">&gt;</span>
-           </div>
-     
+          </div>
          </div>
-         
-       </div>
+      </div>
    
   </div>
   

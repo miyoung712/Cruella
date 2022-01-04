@@ -147,12 +147,12 @@
 
 function prev(){
 $('#photo_box ul li:last').prependTo('#photo_box ul');
-$('#photo_box ul').css('margin-left',-100); 
+$('#photo_box ul').css('margin-left',-103); 
 $('#photo_box ul').stop().animate({marginLeft:0},100);
 }
 
 function next(){
-$('#photo_box ul').stop().animate({marginLeft:-100}, function(){
+$('#photo_box ul').stop().animate({marginLeft:-103}, function(){
 $('#photo_box ul li:first').appendTo('#photo_box ul');
 $('#photo_box ul').css({marginLeft:0});
 });

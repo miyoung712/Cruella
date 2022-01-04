@@ -32,12 +32,16 @@
   #photo_box ul {display:flex; flex-wrap:wrap; justify-content: center; align-items:space-around;}
   #photo_box li:hover {cursor:pointer;}
 
-  #img_box {width:680px; height:670px; display:flex;  flex-wrap:wrap; justify-content: center; 
+  #img_box {width:680px; height:740px; display:flex;  flex-wrap:wrap; justify-content: center; 
           align-items:space-around; background-color: aqua;}
   #photo_box {width:680px; height:230px;  background-color: gold;}
   .p_1 {width:660px; height:440px;}
   #photo_box img {width:100px; height:67px;}
 
+  .prev {left:110px; padding:10px; background-color:#000; border:1px solid #d9362f;}
+  .next {right:110px; padding:10px; background-color:#000; border:1px solid #d9362f;}
+   span {position: absolute; top:64.7%; display: block; font-size: 33px; color:#d9362f; line-height: 40px;
+            background: red; cursor: pointer; height: 67px; transform: translateY(-50%); }
                            
     /* 센터_헤더 상단 아이콘  */
     body {

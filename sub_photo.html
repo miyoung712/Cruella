@@ -75,17 +75,108 @@
     $(document).ready(function(){
 
       $("#photo_box li:first-child").click(function(){
-         $("#s_img").attr("src","p_1.jpg");
+         $("#s_img").attr("src","img/photo/p_1.jpg");
       });
 
       $("#photo_box li:nth-child(2)").click(function(){
-         $("#s_img").attr("src","p_2.jpg");
+         $("#s_img").attr("src","img/photo/p_2.jpg");
       });
 
+      $("#photo_box li:nth-child(3)").click(function(){
+         $("#s_img").attr("src","img/photo/p_3.jpg");
+      });
+
+      $("#photo_box li:nth-child(4)").click(function(){
+         $("#s_img").attr("src","img/photo/p_4.jpg");
+      });
+
+      $("#photo_box li:nth-child(5)").click(function(){
+         $("#s_img").attr("src","img/photo/p_5.jpg");
+      });
+
+      $("#photo_box li:nth-child(6)").click(function(){
+         $("#s_img").attr("src","img/photo/p_6.jpg");
+      });
+
+      $("#photo_box li:nth-child(7)").click(function(){
+         $("#s_img").attr("src","img/photo/p_7.jpg");
+      });
+
+      $("#photo_box li:nth-child(8)").click(function(){
+         $("#s_img").attr("src","img/photo/p_8.jpg");
+      });
+
+      $("#photo_box li:nth-child(9)").click(function(){
+         $("#s_img").attr("src","img/photo/p_9.jpg");
+      });
+
+      $("#photo_box li:nth-child(10)").click(function(){
+         $("#s_img").attr("src","img/photo/p_10.jpg");
+      });
+
+      $("#photo_box li:nth-child(11)").click(function(){
+         $("#s_img").attr("src","img/photo/p_11.jpg");
+      });
+
+      $("#photo_box li:nth-child(12)").click(function(){
+         $("#s_img").attr("src","img/photo/p_12.jpg");
+      });
+
+      $("#photo_box li:nth-child(13)").click(function(){
+         $("#s_img").attr("src","img/photo/p_13.jpg");
+      });
+
+      $("#photo_box li:nth-child(14)").click(function(){
+         $("#s_img").attr("src","img/photo/p_14.jpg");
+      });
+
+      $("#photo_box li:nth-child(15)").click(function(){
+         $("#s_img").attr("src","img/photo/p_15.jpg");
+      });
+
+      $("#photo_box li:nth-child(16)").click(function(){
+         $("#s_img").attr("src","img/photo/p_16.jpg");
+      });
 
      }); 
-
 //    서브 포토 슬라이드
+
+
+
+//    이전 다음 
+
+function prev(){
+$('#photo_box li:last').prependTo('#photo_box');
+$('#photo_box').css('margin-left',-1000); 
+$('#photo_box').stop().animate({marginLeft:0},800);
+}
+
+function next(){
+$('#photo_box').stop().animate({marginLeft:-1000}, function(){
+$('#photo_box li:first').appendTo('#photo_box');
+$('#photo_box').css({marginLeft:0});
+});
+}
+
+// function slide(){
+// $('#photo_box').stop().animate({marginLeft:-1000}, function(){
+// $('#photo_box li:first').appendTo('#photo_box');
+// $('#photo_box').css({marginLeft:0});
+// });
+// }
+
+setInterval(slide, 3000);
+
+$('.prev').click(function(){
+prev();
+});
+
+$('.next').click(function(){
+next();
+});
+
+//    이전 다음 
+
 
 
    </script>
@@ -193,6 +284,8 @@
               <li><img src="img/photo/p_15.jpg" alt=""></li>
               <li><img src="img/photo/p_16.jpg" alt=""></li>
             </ul>
+            <span class="prev">&lt;</span>
+            <span class="next">&gt;</span>
            </div>
          </div>
          

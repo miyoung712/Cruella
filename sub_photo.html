@@ -167,12 +167,14 @@ $('#photo_box ul').css({marginLeft:0});
 
 setInterval(slide, 3000);
 
-$('.prev').click(function(){
-prev();
-});
+$(document).ready(function(){
+    $('.prev').click(function(){
+    prev();
+    });
 
-$('.next').click(function(){
-next();
+    $('.next').click(function(){
+    next();
+    });
 });
 
 //    이전 다음 

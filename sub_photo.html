@@ -145,6 +145,8 @@
 
 //    이전 다음 
 
+$(document).ready(function(){
+
 function prev(){
 $('#photo_box ul li:last').prependTo('#photo_box ul');
 $('#photo_box ul').css('margin-left',-103); 
@@ -167,7 +169,6 @@ $('#photo_box ul').css({marginLeft:0});
 
 setInterval(slide, 3000);
 
-$(document).ready(function(){
     $('.prev').click(function(){
     prev();
     });

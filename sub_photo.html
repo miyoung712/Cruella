@@ -152,7 +152,7 @@ $('#photo_box').stop().animate({marginLeft:0},800);
 }
 
 function next(){
-$('#photo_box').stop().animate({marginLeft:-1000}, function(){
+$('#photo_box').stop().animate({marginLeft:-100}, function(){
 $('#photo_box li:first').appendTo('#photo_box');
 $('#photo_box').css({marginLeft:0});
 });
@@ -265,6 +265,7 @@ next();
 
         <div id="img_box">
            <img src="img/photo/p_1.jpg" alt="" id="s_img" class="p_1">
+          
             <div id="photo_box">
             <ul>
               <li><img src="img/photo/p_1.jpg" alt=""></li>
@@ -287,6 +288,7 @@ next();
             <span class="prev">&lt;</span>
             <span class="next">&gt;</span>
            </div>
+     
          </div>
          
        </div>

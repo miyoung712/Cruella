@@ -30,8 +30,8 @@
   #photo_box li {float:left;}
   #photo_box li:hover {cursor:pointer;}
 
-  #img_box {width:680px; height:460px; background-color: aqua;}
-  #photo_box {width:680px; height:120px; background-color: gold;}
+  #img_box {width:680px; height:670px; background-color: aqua;}
+  #photo_box {width:680px; height:230px; background-color: gold;}
   .p_1 {width:660px; height:440px;}
   #photo_box img {width:100px; height:67px;}
 

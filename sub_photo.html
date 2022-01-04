@@ -158,12 +158,12 @@ $('#photo_box').css({marginLeft:0});
 });
 }
 
-// function slide(){
-// $('#photo_box').stop().animate({marginLeft:-1000}, function(){
-// $('#photo_box li:first').appendTo('#photo_box');
-// $('#photo_box').css({marginLeft:0});
-// });
-// }
+function slide(){
+$('#photo_box').stop().animate({marginLeft:-100}, function(){
+$('#photo_box li:first').appendTo('#photo_box');
+$('#photo_box').css({marginLeft:0});
+});
+}
 
 setInterval(slide, 3000);
 

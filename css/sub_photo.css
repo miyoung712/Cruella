@@ -39,8 +39,8 @@
   .p_1 {width:660px; height:440px;}
   #photo_box img {width:100px; height:67px;}
 
-  .prev {left:140px; padding:10px; background-color:#000; border:1px solid #d9362f;}
-  .next {right:142px; padding:10px; background-color:#000; border:1px solid #d9362f;}
+  .prev {left:75px; padding:10px; background-color:#000; border:1px solid #d9362f;}
+  .next {right:75px; padding:10px; background-color:#000; border:1px solid #d9362f;}
    span {position: absolute; top:65.2%; display: block; font-size: 33px; color:#d9362f; line-height: 40px;
             background: red; cursor: pointer; height: 67px; transform: translateY(-50%); }
                            

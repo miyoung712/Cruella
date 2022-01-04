@@ -146,22 +146,22 @@
 //    이전 다음 
 
 function prev(){
-$('#photo_box li:last').prependTo('#photo_box');
-$('#photo_box').css('margin-left',-100); 
-$('#photo_box').stop().animate({marginLeft:0},800);
+$('#photo_box ul li:last').prependTo('#photo_box ul');
+$('#photo_box ul').css('margin-left',-100); 
+$('#photo_box ul').stop().animate({marginLeft:0},300);
 }
 
 function next(){
-$('#photo_box').stop().animate({marginLeft:-100}, function(){
-$('#photo_box li:first').appendTo('#photo_box');
-$('#photo_box').css({marginLeft:0});
+$('#photo_box ul').stop().animate({marginLeft:-100}, function(){
+$('#photo_box ul li:first').appendTo('#photo_box ul');
+$('#photo_box ul').css({marginLeft:0});
 });
 }
 
 function slide(){
-$('#photo_box').stop().animate({marginLeft:-100}, function(){
-$('#photo_box li:first').appendTo('#photo_box');
-$('#photo_box').css({marginLeft:0});
+$('#photo_box ul').stop().animate({marginLeft:-100}, function(){
+$('#photo_box ul li:first').appendTo('#photo_box ul');
+$('#photo_box ul').css({marginLeft:0});
 });
 }
 
@@ -177,9 +177,8 @@ next();
 
 //    이전 다음 
 
-
-
    </script>
+
 
 </head>
 

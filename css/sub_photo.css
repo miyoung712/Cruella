@@ -36,7 +36,7 @@
           align-items:space-around; background-color: saddlebrown;}
 
   #photo_box {width:680px; height:67px; overflow: hidden; margin-top:-90px; 
-             display:flex; flex-wrap:nowrap; background-color: gold;}
+             display:flex; flex-wrap:nowrap;  justify-content: space-between; background-color: gold;}
   .p_1 {width:660px; height:440px;}
   #photo_box img {width:100px; height:67px; }
   #photo_box img:first-of-type {margin-left:3px;}

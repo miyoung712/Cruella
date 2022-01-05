@@ -35,9 +35,10 @@
   #img_box {width:680px; height:680px; display:flex;  flex-wrap:wrap; justify-content: center; 
           align-items:space-around; background-color: saddlebrown;}
 
-  #photo_box {width:680px; height:67px; overflow: hidden; margin-top:-90px; background-color: gold;}
+  #photo_box {width:680px; height:67px; overflow: hidden; margin-top:-90px; 
+             display:flex; flex-wrap:nowrap; background-color: gold;}
   .p_1 {width:660px; height:440px;}
-  #photo_box img {width:100px; height:67px; margin:0 0 0 -30px; }
+  #photo_box img {width:100px; height:67px; }
   #photo_box img:first-of-type {margin-left:3px;}
 
   .prev {left:66px; padding:10px; background-color:#000; border:1px solid #d9362f;}

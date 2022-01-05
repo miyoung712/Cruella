@@ -47,7 +47,7 @@
           align-items:space-between; position:relative; margin-top:-70px;}
 
   #photo_box {width:95%; height:60px; overflow: hidden; margin:0 auto; margin-top:30px;}
-  .p_1 {width:95%; height:440px;}
+  .p_1 {width:100%; height:440px;}
   #photo_box img {width:95%; height:70px; }
   #photo_box img:first-of-type {margin-left:2px;}
 

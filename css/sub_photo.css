@@ -29,22 +29,24 @@
               position: absolute; bottom:0; text-align:center; border-top:1px solid #982e29; padding:19px;}
  
   #photo_box li {float:left;}
-  #photo_box ul {width:680px; display:flex; flex-wrap:wrap; justify-content: center; align-items:space-around;}
+  #photo_box ul {width:1648px; height:100%; }
   #photo_box li:hover {cursor:pointer;}
 
-  #img_box {width:680px; height:680px; display:flex;  flex-wrap:wrap; justify-content: center; 
-          align-items:space-around; background-color: saddlebrown;}
+  #img_box {width:680px; height:520px; display:flex;  flex-wrap:wrap; justify-content: center; 
+          align-items:space-between; background-color: saddlebrown; position:relative;}
 
-  #photo_box {width:680px; height:67px; overflow: hidden; margin-top:-90px; 
-             display:flex; flex-wrap:nowrap;  justify-content: space-between; background-color: gold;}
-  .p_1 {width:660px; height:440px;}
+  #photo_box {width:620px; height:67px; overflow: hidden; margin:0 auto;
+             background-color: gold;}
+  .p_1 {width:680px; height:440px;}
   #photo_box img {width:100px; height:67px; }
   #photo_box img:first-of-type {margin-left:3px;}
 
-  .prev {left:66px; padding:10px; background-color:#000; border:1px solid #d9362f; width:40px;}
-  .next {right:66px; padding:10px; background-color:#000; border:1px solid #d9362f; width:40px;}
-   span {position: absolute; top:67.3%; display: block; color:#d9362f; line-height: 34px;
-            background: red; cursor: pointer; height: 67px; transform: translateY(-50%); }
+  .prev {left:0px; bottom:5px; padding:10px; background-color:#000;
+          border:1px solid #d9362f; width:40px; height:69px;}
+  .next {right:0px; bottom:5px; padding:10px; background-color:#000; 
+          border:1px solid #d9362f; width:40px; height:69px;}
+   span {position: absolute; display: block; color:#d9362f; line-height: 34px;
+            background: red; cursor: pointer; height: 67px;  }
 
   .prev .fas {color:#d9362f; font-size:20px; margin:12px 0 0 2px;}
   .next .fas {color:#d9362f; font-size:20px; margin:12px 0 0 3px;}

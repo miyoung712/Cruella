@@ -169,7 +169,7 @@ $('#photo_box ul').css({marginLeft:0});
 
 setInterval(slide, 3000);
 
-    $('.prev').click(function(){
+    $('.prev .fas').click(function(){
     prev();
     });
 
@@ -267,8 +267,8 @@ setInterval(slide, 3000);
 
         <div id="img_box">
            <img src="img/photo/p_1.jpg" alt="" id="s_img" class="p_1">
-              <span class="prev">&lt;</span>
-              <span class="next">&gt;</span>
+              <!-- <span class="prev">&lt;</span>
+              <span class="next">&gt;</span> -->
             <div id="photo_box">
             <ul>
               <li><img src="img/photo/p_1.jpg" alt=""></li>
@@ -288,6 +288,8 @@ setInterval(slide, 3000);
               <li><img src="img/photo/p_15.jpg" alt=""></li>
               <li><img src="img/photo/p_16.jpg" alt=""></li>
             </ul>
+            <span class="prev"><i class="fas fa-chevron-left"></i></span>
+            <span class="next"><i class="fas fa-chevron-right"></i></i></span>
           </div>
          </div>
       </div>

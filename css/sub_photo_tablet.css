@@ -1,27 +1,35 @@
 @charset "utf-8";
 
+/* sub_photo_tablet */
 
-@media (min-width:1200px){
 
- body {background-color: black;}
+@media (min-width:600px) and (max-width:1199px){
 
- #logo {width:75px; height:70px; padding:23px 28px; position:fixed; z-index:10;}
- #logo:hover {cursor:pointer; transform: scale(0.9); 
-             transition: all 0.2s ease-in-out; }
+    body {background-color: black; }
 
- #wrap{width:100%; height:100%; background-color:#000; 
-       display:flex;  align-items:stretch;}
- .slide_l {width: calc(47% - 36px); height:100vh; margin: 0px auto; position:relative; background-color:#000; z-index:100;}
- .slide {width:100%;}
- .slide>li {width:100%; height:100vh; position:absolute; left:0; top:0;}
- .slide>li>img {width:100%; height:100%;}
- .slide li:not(:first-child) {display:none;}
-
- .wrap_c {width:72px; height:100vh; margin: 0px auto; background-color:#000;
-        display:flex; flex-direction: column; justify-content: space-between; border-right:1px solid #982e29; }
-  #nav { width:72px; height:8vh; }
-
- .wrap_c #logo {display:none;}
+    #logo {display:none;}
+   
+    #wrap{width:100%; height:auto; background-color:#000; 
+          display:flex; flex-direction:column; }
+   
+     .wrap_r {order:1;}
+     .slide_l {order:2;}
+   
+    .slide_l {width: 100%; height:auto; margin: 0px auto; position:relative; 
+             background-color:#000; z-index:30; }
+    .slide {width:100%;}
+    .slide>li {width:100%; height:auto; position:absolute; left:0; top:0; 
+              text-align:center;}
+    .slide>li>img {width:80%; height:80%;}
+    .slide li:not(:first-child) {display:none;}
+   
+    .wrap_c {width:100%; height:169px; margin: 0px auto;  border-right:1px solid #982e29;
+     display:flex;  display: flex; flex-wrap:wrap;}
+     #nav { width:100%; height:97px;}
+                   
+     #nav #logo {width:120px; height:95px; padding:13px 19px; z-index:10; display:block; }
+     #nav #logo:hover {cursor:pointer; transform: scale(0.9); 
+                         transition: all 0.2s ease-in-out; }
                 
  .wrap_r {width: calc(53% - 36px);height:100vh; margin: 0px auto; background-color:#000;
          display:flex; justify-content: center; align-items: center; position:relative;
@@ -155,28 +163,33 @@
     }
     /* 센터_헤더 상단 아이콘 */
 
-    .menu_side {position: fixed; z-index: 50; right: 100%; 
-        width:calc(53% - 36px); height: 100vh; background-color:#d9362f; 
-        padding: 10px; box-sizing: border-box; transition : 0.5s all ease-in-out;}
-    .show {right: 0px; background-color:#d9362f; transition : 0.5s all ease-in-out;}
+    .menu_side {position: fixed; z-index: 50; right:100%; 
+        width:100%; height: 100vh; background-color:#d9362f; 
+        padding: 7px; box-sizing: border-box; transition : 0.5s all ease-in-out;}
+    .show { right: 0px; background-color:#d9362f; transition : 0.5s all ease-in-out;}
 
     .menu_side {color:#fff; font-family:"HANBatangB";}
-    .menu li a {color:#fff;}
     .menu li {font-size:50px;  letter-spacing:1px; transform:translate(-420px); 
-              transition: all 3s; opacity: 0; }
-    .menu li:first-of-type {margin-top: 200px; }
-    .menu li {margin-left: 130px;}
+              transition: all 3s; opacity: 0;}
+    .menu li a {color:#fff;}     
+    .menu li:first-of-type {margin-top: 110px; }
+    .menu li {margin-left: 10px;}
     .menu li {cursor:pointer;}
     .menu li:hover { transition: 1s;}
     .menu_side p {font-size:15px; font-family:"S-CoreDream-4Regular";  
-                  letter-spacing:1px; margin-left:126px; margin-top: 230px;}
+                  letter-spacing:1px; margin-left:96px; margin-top: 200px;}
+
 
     /* sns 아이콘 */
-    .sns { width:72px; height:250px; display:flex; flex-direction: column;}
-    .sns_icon {width:72px; height:72px; display:flex; justify-content:center; align-items:center; margin-bottom:20px;}
-    .sns_icon .fab, .fas {color:#d9362f; font-size:18px;}
+    .sns { width:100%; height:72px;  display:flex; flex-direction: row; }
+    .sns_icon {width:100%; height:72px; margin-bottom:20px; 
+               border-top:1px solid #982e29; padding:19px;  
+               border-bottom:1px solid #982e29;
+               display:flex; justify-content:space-around; align-items:center;}
+    .sns_icon .fab, .fas {color:#d9362f; font-size:27px;}
     .sns_icon .fab:hover,.fas:hover {color:#fff; cursor:pointer; transition: all 0.3s ease-in-out;}
     /* sns 아이콘 */
+
 
 
     /* 메뉴 li 호버 컬러 슬라이드 */
@@ -221,3 +234,5 @@
      /* 메뉴 li 호버 컬러 슬라이드 */
 
     }
+
+    /* sub_photo_tablet */

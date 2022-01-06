@@ -33,7 +33,7 @@
                 
  .wrap_r {width:100%; height:82vh;  margin: 0px auto; background-color:#000;
          display:flex; justify-content: center; align-items: center; position:relative;
-          background: url(../img/sub_photo_background.jpg) center; }
+         background: url(../img/sub_photo_background.jpg) center;}
  .wrap_r h3 {font-size:13px; color:#5b5b5b; font-family:"HANBatang";width:100%; height:60px;
             position: absolute; bottom:0; text-align:center; border-top:1px solid #982e29; padding:19px;}
  
@@ -41,13 +41,13 @@
   #photo_box ul {width:1648px; height:100%; }
   #photo_box li:hover {cursor:pointer;}
 
-  #img_box {width:95%; height:580px; display:flex;  flex-wrap:wrap; justify-content: center; 
-          align-items:space-between; position:relative;}
+  #img_box {width:85%; height:580px; display:flex;  flex-wrap:wrap; justify-content: center; 
+          align-items:space-between; position:relative; margin-top:-25px;}
 
-  #photo_box {width:95%; height:70px; overflow: hidden; margin:0 auto;}
+  #photo_box {width:95%; height:70px; overflow: hidden; margin:0 auto; }
   .p_1 {width:100%; height:440px;}
-  #photo_box img {width:95%; height:70px; }
-  #photo_box img:first-of-type {margin-left:4px;}
+  #photo_box img {width:97%; height:70px; }
+  #photo_box img:first-of-type {margin-left:2px;}
 
   .prev {left:0px; bottom:35px; padding:10px; background-color:#000;
           border:1px solid #d9362f; width:40px; height:70px;}

@@ -55,6 +55,8 @@
                 font-family:"HANBatang"; 
                 letter-spacing:2px;
                 font-size:27px;
+               
+              
               }
               .wrapper .video {
                 height: 100vh;
@@ -127,7 +129,7 @@
                 right: 0;
                 border-radius: 40px;
                 outline: none;
-                z-index: 1000;
+                z-index: 100;
                 appearance: none;
                 cursor: pointer;
               }
@@ -180,7 +182,7 @@
                 display: block;
                 left: 20px;
                 bottom: 20px;
-                z-index: 300;
+                z-index: 100;
               }
               body .socials > a {
                 display: block;

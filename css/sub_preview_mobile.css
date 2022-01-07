@@ -16,7 +16,7 @@
      .slide_l {order:2;}
    
     .slide_l {width: 100%; height:auto; margin: 0px auto; position:relative; 
-             background-color:#000; z-index:30; }
+             background-color:#000; z-index:30; display:none;}
     .slide {width:100%;}
     .slide>li {width:100%; height:auto; position:absolute; left:0; top:0; 
               text-align:center;}
@@ -55,6 +55,7 @@
                 font-family:"HANBatang"; 
                 letter-spacing:2px;
                 font-size:27px;
+                height:300px;
                
               
               }

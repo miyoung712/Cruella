@@ -29,8 +29,14 @@
     //  ** 메뉴 슬라이드 (사이드) **
     
       $('#nav-lines').click(function(){
-      $('.menu_side').toggleClass('show', 400)
-      });
+      $('.menu_side').toggleClass('show', 400);
+       if($('.menu_side').hasClass('show')){
+         $('.wrapper').css('z-index','49');
+       }else{
+         $('.wrapper').css('z-index','102');
+        }
+       });
+
      //  ** 메뉴 슬라이드 (사이드) **
 
 
